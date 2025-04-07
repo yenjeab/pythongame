@@ -3,9 +3,9 @@ import functools
 import operator
 import random
 import math
-print('เกมคณิตคิดเร็ว')
+print('เกมคณิตคิดเร็ว (　＾ω＾)')
 time.sleep(2)
-print('แน่จริงก็คิดเลขให้ได้ไวที่สุด')
+print('แน่จริงก็คิดเลขให้ได้ไวที่สุด ( *´・ω)/(；д； )')
 time.sleep(3)
 print('พร้อมแล้วก็ มาเริ่มกันเลย!!')
 time.sleep(3)
@@ -38,7 +38,7 @@ else:
         guess=int(input())
         time_out = time.time()-start_time
         if time_out > 180 :
-            print('หมดเวลา เกมจบเเล้ว!!!')
+            print('หมดเวลา เกมจบเเล้ว!!! (ノ-_-)ノ~┻━┻')
             elapsed_time=time.time() - start_time
             print('คะแนนของคุณคือ', score, 'ใช้เวลาไปทั้งหมด', (elapsed_time), 'วินาที')
             break
@@ -46,7 +46,7 @@ else:
             score = score +(1*overall_difficulty)
             continue
         else:
-            print('เกมจบแล้ว!!! คำตอบที่ถูกคือ', answer)
+            print('เกมจบแล้ว!!! คำตอบที่ถูกคือ', answer,'(TдT )')
             elapsed_time=time.time() - start_time
             print('คะแนนของคุณคือ', score, 'ใช้เวลาไปทั้งหมด', (elapsed_time), 'วินาที')
             break
